@@ -53,6 +53,7 @@ var elevationService = L.esri.GP.service({
 	// Local dev settings
     // url: "http://elevation.arcgis.com/arcgis/rest/services/Tools/Elevation/GPServer/SummarizeElevation/",
 	// proxy: "http://localhost:8888/PHP/proxy.php",
+	// url: "https://utility.arcgis.com/usrsvcs/appservices/tGgqVVoHpHacidEV/rest/services/Tools/Elevation/GPServer/SummarizeElevation/",
 	useCors: true,
 	async: true,
 	asyncInterval: 1.5,
