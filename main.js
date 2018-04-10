@@ -49,7 +49,7 @@ var searchControl = L.esri.geocoding.geosearch().addTo(map);
 var elevationService = L.esri.GP.service({
 	// Deployed settings
     url: "https://elevation.arcgis.com/arcgis/rest/services/Tools/Elevation/GPServer/SummarizeElevation/",
-	proxy: "https://devgis.geoengineers.com/xyz_proxy/proxy.ashx",
+	proxy: "https://gisweb.geoengineers.com/xyz-proxy/proxy.ashx",
 	// Local dev settings
     // url: "http://elevation.arcgis.com/arcgis/rest/services/Tools/Elevation/GPServer/SummarizeElevation/",
 	// proxy: "http://localhost:8888/PHP/proxy.php",
